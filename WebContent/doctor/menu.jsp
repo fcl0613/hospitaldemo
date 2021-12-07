@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div class="sidebar-wrap">
+        <div class="sidebar-title">
+            <h1>菜单</h1>
+        </div>
+        <div class="sidebar-content">
+            <ul class="sidebar-list">
+                <li>
+                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <ul class="sub-menu">
+                        <li><a href="selectsche"><i class="icon-font">&#xe006;</i>我的排班</a></li>
+                        <li><a href="torequest"><i class="icon-font">&#xe005;</i>申请调班</a></li>
+                        <li><a href="selectrequest"><i class="icon-font">&#xe005;</i>我的调班申请</a></li>
+                        <li><a href="selectgrxinxi"><i class="icon-font">&#xe014;</i>个人信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="icon-font">&#xe018;</i>系统管理</a>
+                    <ul class="sub-menu">
+                        <li><a href=""><i class="icon-font">&#xe017;</i>系统设置</a></li>
+                        <li><a href=""><i class="icon-font">&#xe037;</i>清理缓存</a></li>
+                        <li><a href=""><i class="icon-font">&#xe046;</i>数据备份</a></li>
+                        <li><a href=""><i class="icon-font">&#xe045;</i>数据还原</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
